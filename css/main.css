@@ -44,9 +44,17 @@ body.light {
   padding: 0.6rem;
   border-radius: 30px;
   border: 0;
-  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
-          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
   font-size: 1.6rem;
   font-weight: bold;
   cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  outline: 0;
+}
+
+.container button:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
